@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default language: Serbian (Latin). English lives in values-en/strings.xml. -->
+<resources>
+    <string name="app_name">SmartCalc AI</string>
+
+    <!-- Navigation -->
+    <string name="tab_calculator">Kalkulator</string>
+    <string name="tab_history">Istorija</string>
+
+    <!-- Calculator -->
+    <string name="calculator_title">SMARTCALC AI</string>
+    <string name="btn_photo_task">Slikaj zadatak</string>
+    <string name="btn_pick_image">Izaberi sliku</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">Obriši znak</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_toggle_sign">+/-</string>
+    <string name="btn_percent">%</string>
+    <string name="btn_parentheses">( )</string>
+    <string name="cd_backspace">Obriši poslednji znak</string>
+
+    <!-- Errors -->
+    <string name="error">Greška</string>
+    <string name="error_division_by_zero">Deljenje nulom nije dozvoljeno</string>
+    <string name="error_invalid_expression">Neispravan izraz</string>
+    <string name="error_number_too_large">Broj je prevelik</string>
+    <string name="error_no_internet">Nema internet veze</string>
+    <string name="error_need_internet_for_ai">Za rešavanje zadatka sa slike potrebna je internet veza.</string>
+    <string name="error_backend_unavailable">Server nije dostupan. Pokušajte ponovo kasnije.</string>
+    <string name="error_timeout">Isteklo je vreme čekanja. Pokušajte ponovo.</string>
+    <string name="error_ai">Došlo je do greške pri rešavanju zadatka.</string>
+    <string name="error_invalid_response">Neispravan odgovor servera.</string>
+    <string name="error_unclear_photo">Nisam dovoljno jasno prepoznao zadatak. Molimo fotografišite zadatak ponovo.</string>
+    <string name="error_camera_permission_denied">Dozvola za kameru nije odobrena. Omogućite je u podešavanjima aplikacije.</string>
+    <string name="error_gallery_permission_denied">Dozvola za pristup galeriji nije odobrena. Omogućite je u podešavanjima aplikacije.</string>
+    <string name="error_camera_unavailable">Kamera nije dostupna na ovom uređaju.</string>
+    <string name="error_camera_failed">Fotografisanje nije uspelo. Pokušajte ponovo.</string>
+    <string name="error_image_invalid">Slika nije podržana ili je oštećena.</string>
+    <string name="error_image_selection_cancelled">Izbor slike je otkazan.</string>
+    <string name="error_photo_cancelled">Fotografisanje je otkazano.</string>
+    <string name="error_image_too_blurry">Slika je nejasna. Molimo fotografišite zadatak ponovo.</string>
+
+    <!-- Common actions -->
+    <string name="action_retry">Pokušaj ponovo</string>
+    <string name="action_save">Sačuvaj</string>
+    <string name="action_delete">Obriši</string>
+    <string name="action_delete_all">Obriši sve</string>
+    <string name="action_cancel">Otkaži</string>
+    <string name="action_back">Nazad</string>
+    <string name="action_close">Zatvori</string>
+    <string name="action_open_settings">Otvori podešavanja</string>
+    <string name="action_grant_permission">Dozvoli pristup</string>
+
+    <!-- Solver -->
+    <string name="solver_title">Rešavanje sa slike</string>
+    <string name="solver_capture_hint">Postavite zadatak u okvir i fotografišite</string>
+    <string name="solver_shutter">Fotografiši</string>
+    <string name="solver_retake">Slikaj ponovo</string>
+    <string name="solver_pick_again">Izaberi drugu sliku</string>
+    <string name="solver_solve">Reši zadatak</string>
+    <string name="solver_solving">Rešavam zadatak…</string>
+    <string name="solver_recognized_problem">Prepoznat zadatak</string>
+    <string name="solver_steps">Postupak</string>
+    <string name="solver_solution">Rešenje</string>
+    <string name="solver_new_task">Novi zadatak</string>
+    <string name="solver_save_to_history">Sačuvaj u istoriju</string>
+    <string name="solver_saved">Sačuvano u istoriju</string>
+    <string name="solver_photo">Fotografija</string>
+    <string name="solver_low_confidence">Prepoznavanje nije pouzdano.</string>
+    <string name="cd_captured_image">Fotografisani zadatak</string>
+
+    <!-- History -->
+    <string name="history_title">Istorija</string>
+    <string name="history_empty">Istorija je prazna</string>
+    <string name="history_filter_all">Sve</string>
+    <string name="history_filter_calculator">Kalkulator</string>
+    <string name="history_filter_ai">AI zadaci</string>
+    <string name="history_delete_all_title">Obriši sve</string>
+    <string name="history_delete_all_message">Da li ste sigurni da želite da obrišete celu istoriju?</string>
+    <string name="history_item_deleted">Stavka je obrisana</string>
+    <string name="history_reuse_hint">Dodirnite stavku da je ponovo upotrebite</string>
+    <string name="history_type_calculator">Kalkulator</string>
+    <string name="history_type_ai">AI zadatak</string>
+</resources>

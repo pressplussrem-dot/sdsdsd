@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartCalc AI</string>
+
+    <string name="tab_calculator">Calculator</string>
+    <string name="tab_history">History</string>
+
+    <string name="calculator_title">SMARTCALC AI</string>
+    <string name="btn_photo_task">Photograph problem</string>
+    <string name="btn_pick_image">Choose image</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">Backspace</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_toggle_sign">+/-</string>
+    <string name="btn_percent">%</string>
+    <string name="btn_parentheses">( )</string>
+    <string name="cd_backspace">Delete last character</string>
+
+    <string name="error">Error</string>
+    <string name="error_division_by_zero">Division by zero is not allowed</string>
+    <string name="error_invalid_expression">Invalid expression</string>
+    <string name="error_number_too_large">Number is too large</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_need_internet_for_ai">An internet connection is required to solve a problem from a photo.</string>
+    <string name="error_backend_unavailable">The server is unavailable. Please try again later.</string>
+    <string name="error_timeout">The request timed out. Please try again.</string>
+    <string name="error_ai">Something went wrong while solving the problem.</string>
+    <string name="error_invalid_response">Invalid server response.</string>
+    <string name="error_unclear_photo">I could not recognise the problem clearly enough. Please photograph it again.</string>
+    <string name="error_camera_permission_denied">Camera permission was denied. Enable it in the app settings.</string>
+    <string name="error_gallery_permission_denied">Gallery permission was denied. Enable it in the app settings.</string>
+    <string name="error_camera_unavailable">The camera is not available on this device.</string>
+    <string name="error_camera_failed">Taking the photo failed. Please try again.</string>
+    <string name="error_image_invalid">The image is unsupported or damaged.</string>
+    <string name="error_image_selection_cancelled">Image selection was cancelled.</string>
+    <string name="error_photo_cancelled">Taking the photo was cancelled.</string>
+    <string name="error_image_too_blurry">The image is blurry. Please photograph the problem again.</string>
+
+    <string name="action_retry">Try again</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_grant_permission">Grant permission</string>
+
+    <string name="solver_title">Solve from photo</string>
+    <string name="solver_capture_hint">Place the problem inside the frame and take a photo</string>
+    <string name="solver_shutter">Take photo</string>
+    <string name="solver_retake">Retake photo</string>
+    <string name="solver_pick_again">Choose another image</string>
+    <string name="solver_solve">Solve problem</string>
+    <string name="solver_solving">Solving…</string>
+    <string name="solver_recognized_problem">Recognised problem</string>
+    <string name="solver_steps">Steps</string>
+    <string name="solver_solution">Solution</string>
+    <string name="solver_new_task">New problem</string>
+    <string name="solver_save_to_history">Save to history</string>
+    <string name="solver_saved">Saved to history</string>
+    <string name="solver_photo">Photo</string>
+    <string name="solver_low_confidence">Recognition is not reliable.</string>
+    <string name="cd_captured_image">Photographed problem</string>
+
+    <string name="history_title">History</string>
+    <string name="history_empty">History is empty</string>
+    <string name="history_filter_all">All</string>
+    <string name="history_filter_calculator">Calculator</string>
+    <string name="history_filter_ai">AI problems</string>
+    <string name="history_delete_all_title">Delete all</string>
+    <string name="history_delete_all_message">Are you sure you want to delete the entire history?</string>
+    <string name="history_item_deleted">Item deleted</string>
+    <string name="history_reuse_hint">Tap an item to reuse it</string>
+    <string name="history_type_calculator">Calculator</string>
+    <string name="history_type_ai">AI problem</string>
+</resources>

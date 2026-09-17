@@ -1,0 +1,6 @@
+# Copy this file to local.properties (it is git-ignored) and adjust.
+# Android Studio normally writes sdk.dir for you.
+sdk.dir=/path/to/Android/Sdk
+
+# Optional: point the app at your deployed backend.
+SMARTCALC_BACKEND_URL=https://your-backend.example.com/
